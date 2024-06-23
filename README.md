@@ -41,8 +41,17 @@
 ### Resources:
 - [Flow-of-Web.pdf](Flow-of-Web.pdf): Current overview and updates.
 
-## Conclusion
+## Leetcode Solutions
 
-These assignments collectively contribute to a comprehensive understanding of computer networks, combining theory with practical applications using tools and simulations.
+### Network Algorithms
 
+#### Cheapest Flight Within K Stops
+
+**Description:** This PDF document contains a solution approach and code for the Leetcode problem "Cheapest Flight Within K Stops".
+
+### Graph Algorithms
+
+#### Network Delay Time
+
+**Description:** This PDF document contains a solution approach and code for the Leetcode problem "Network Delay Time".
 
