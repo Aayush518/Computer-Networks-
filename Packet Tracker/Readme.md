@@ -1,5 +1,5 @@
 
-# Connecting Two Hosts on the Same Network
+# 1.Connecting Two Hosts on the Same Network
 ![Connecting Two Host on same network](https://github.com/Aayush518/Computer-Networks-/assets/82012823/e3985f64-6de6-4c2c-8b71-289beb27351c)
 
 ## Steps
@@ -9,6 +9,22 @@
 
 2. **Verify Connectivity:**
    - Use command `ping` to test the connection between the hosts.
+
+# 2.Connecting Two Networks Using a Router
+
+![ConnectingTwoNetworksUsingRouter](https://github.com/Aayush518/Computer-Networks-/assets/82012823/61a7fe72-1162-4320-a702-fd3fbaf82790)
+
+
+## Steps
+
+1. **Configure Router:**
+   - Set up routing tables and interfaces for each subnet.
+
+2. **Connect Subnets:**
+   - Ensure proper cabling and connections between the router and subnet devices.
+
+3. **Verify Connectivity:**
+   - Use command `ping` to ensure the subnets are properly connected.
 
 
 
