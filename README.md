@@ -42,6 +42,27 @@
 ![ScreenRecording2024-07-11at11 24 22PM-ezgif com-video-to-gif-converter](https://github.com/Aayush518/Computer-Networks-/assets/63596895/dae1a561-59fa-438c-bfce-a57ee41ba345)
 <img width="303" alt="Screenshot 2024-07-11 at 11 55 01 PM" src="https://github.com/Aayush518/Computer-Networks-/assets/63596895/77d4c502-1a9d-4584-bfb0-073341831b99">
 
+### 2. Simulating Connecting Hosts on Different Networks Using Packet Tracer
+- First add the 4 Laptops, 1 Router, 2 Switches to form network topology
+- Connect devices
+    - Connect Laptop0 and Laptop1 to Switch0
+    - Connect Laptop2 and Laptop3 to Switch1
+    - Connect Switch0 to Router (GigabitEthernet0/0)
+    - Connect Switch1 to Router (GigabitEthernet0/1)
+  
+- Configure Laptop0 and Laptop1 to Switch0 and finally to router with IPv3 192.168.1.0. Assign IPs on the devices accordingly.
+    - For laptop 0 (For example)
+        - IP Address: 192.168.1.2
+        - Subnet Mask: 255.255.255.0
+        - Default Gateway: 192.168.1.1
+- Configure Laptop2 and Laptop2 to Switch1 and finally to router with IPv3 11.12.1.0. Assign IPs on the devices accordingly.
+- Enable Routing on Router
+- Test the network
+    - Open Command Prompt on Laptop0
+    - Execute: ping 11.12.1.2
+      
+![different network](https://github.com/Aayush518/Computer-Networks-/assets/63596895/00eb1be3-5785-419c-b74e-74fb4277f81a)
+
 
 ## Assignment 2: Introduction to Computer Networks
 
