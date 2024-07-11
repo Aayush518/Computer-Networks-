@@ -1,0 +1,27 @@
+class Solution(object):
+    def networkDelayTime(self, times, n, k):
+        """
+        :type times: List[List[int]]
+        :type n: int
+        :type k: int
+        :rtype: int
+        """
+        # Step 1: Initialize distances
+        dist = [sys.maxsize] * (n + 1)
+        dist[k] = 0
+
+        # Step 2: Relax edges repeatedly
+        for _ in range(n - 1):
+            for u, v, w in times:
+                if dist[u] != sys.maxsize and dist[u] + w < dist[v]:
+                    dist[v] = dist[u] + w
+
+        # Step 3: Check for negative cycles
+        for u, v, w in times:
+            if dist[u] != sys.maxsize and dist[u] + w < dist[v]:
+                return -1
+
+        # Step 4: Return the maximum value in dist array
+        max_time = max(dist[1:])  # Ignore dist[0] as it's not used
+        return max_time if max_time != sys.maxsize else -1
+        
