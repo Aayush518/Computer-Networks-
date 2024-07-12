@@ -42,3 +42,12 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app
 ```
+
+## Documentation Snapshots
+
+<img width="1466" alt="Screenshot 2024-07-12 at 12 49 32 PM" src="https://github.com/user-attachments/assets/692cb6a6-aa13-4722-a3b2-e9477c72942a">
+<img width="1140" alt="Screenshot 2024-07-12 at 12 50 13 PM" src="https://github.com/user-attachments/assets/5f935130-2bc6-48ec-b719-50e02921ed7f">
+
+
+
+
