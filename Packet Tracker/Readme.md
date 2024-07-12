@@ -26,7 +26,7 @@
 3. **Verify Connectivity:**
    - Use command `ping` to ensure the subnets are properly connected.
 
-# 3.Configuring DHCP Server
+# 3. Assigning IP Address Automatically To Hosts Using DHCP Server
 
 ![DHCP](https://github.com/Aayush518/Computer-Networks-/assets/82012823/ecbec21b-7874-480e-8114-2cab3f992431)
 
