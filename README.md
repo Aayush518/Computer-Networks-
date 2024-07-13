@@ -13,7 +13,7 @@
 - Packet Tracer simulation demonstrating network configurations.
 
 ### Resources:
-- [CN_ASSIGNMENT_I.pdf](CN_ASSIGNMENT_I.pdf): Theoretical overview and Packet Tracer simulation.
+- [CN_ASSIGNMENT_I.pdf](Assignments/CN_ASSIGNMENT_I.pdf): Theoretical overview and Packet Tracer simulation.
 
 
 
