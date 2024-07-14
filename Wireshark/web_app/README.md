@@ -46,7 +46,8 @@ uvicorn main:app
 ## Documentation Snapshots
 
 <img width="1466" alt="Screenshot 2024-07-12 at 12 49 32 PM" src="https://github.com/user-attachments/assets/692cb6a6-aa13-4722-a3b2-e9477c72942a">
-<img width="1140" alt="Screenshot 2024-07-12 at 12 50 13 PM" src="https://github.com/user-attachments/assets/5f935130-2bc6-48ec-b719-50e02921ed7f">
+<img width="1165" alt="Screenshot 2024-07-14 at 8 39 20 PM" src="https://github.com/user-attachments/assets/3899dcc9-4b73-4ace-90fe-3255c8ed42fb">
+
 
 
 
