@@ -82,6 +82,4 @@ The network interface layer manages physical addressing and data transmission ov
 
 The process of accessing "google.com" involves multiple steps across the TCP/IP model layers. Each layer plays a crucial role in ensuring reliable and secure communication between your browser and Google's server. Understanding these layers helps in optimizing web applications and troubleshooting network issues.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
