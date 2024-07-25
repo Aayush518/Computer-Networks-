@@ -159,6 +159,7 @@ The process of loading a web page involves multiple network layers and protocols
 #### 📁 Resources:
 - [CN_Assignment_2.pdf](CN_Assignment_2.pdf)
 
+and all the other assignments are inside the assignment folder.
 
 ## 🧠 LeetCode Solutions
 
