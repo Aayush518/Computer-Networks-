@@ -5,20 +5,24 @@ class Solution(object):
         :rtype: int
         """
         rows, cols = len(heights), len(heights[0])
-        dist = [[math.inf] * cols for _ in range(rows)]  # Initialize distances to infinity
-        dist[0][0] = 0  # Starting cell has 0 effort
+        dist = [[math.inf] * cols for _ in range(rows)]
+        dist[0][0] = 0
+        
+        edges = []
+        for i in range(rows):
+            for j in range(cols):
+                for dx, dy in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+                    x, y = i + dx, j + dy
+                    if 0 <= x < rows and 0 <= y < cols:
+                        edges.append((i, j, x, y, abs(heights[i][j] - heights[x][y])))
 
-        minHeap = [(0, 0, 0)]  # (effort, row, col)
-
-        while minHeap:
-            d, i, j = heapq.heappop(minHeap)  # Get cell with min effort
-            if i == rows - 1 and j == cols - 1:  # Reached destination
-                return d
-
-            for dx, dy in [(0, 1), (1, 0), (0, -1), (-1, 0)]:  # Explore neighbors
-                x, y = i + dx, j + dy
-                if 0 <= x < rows and 0 <= y < cols:  # Check if neighbor is valid
-                    new_effort = max(d, abs(heights[i][j] - heights[x][y]))  # Calculate effort
-                    if new_effort < dist[x][y]:  # If lower effort found
-                        dist[x][y] = new_effort
-                        heapq.heappush(minHeap, (new_effort, x, y))  # Add to heap
+        for _ in range(rows * cols - 1):
+            updated = False
+            for i, j, x, y, weight in edges:
+                if dist[i][j] != math.inf and max(dist[i][j], weight) < dist[x][y]:
+                    dist[x][y] = max(dist[i][j], weight)
+                    updated = True
+            if not updated:
+                break
+        
+        return dist[rows-1][cols-1]
