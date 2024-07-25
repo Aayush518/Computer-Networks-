@@ -51,7 +51,7 @@ Welcome to the central hub for our BitTorrent implementation projects! Here you'
 
 # 🌐 A Day in the Life of a Web Request
 
-💡 **Note:** This provides a simplified level overview. For more detailed information on each step, see [WebRequestActions](https://github.com/Aayush518/Computer-Networks-/blob/main/WhatHappensWhenYouEnterGoogleDotComAndHitEnter.pdf). and some easy briefing in [Flow-of-Web.pdf](Flow-of-Web.pdf).
+💡 **Note:** This provides a simplified level overview. For more detailed information on each step, see [WebRequestActions](https://github.com/Aayush518/Computer-Networks-/blob/main/WhatHappensWhenYouEnterGoogleDotComAndHitEnter.pdf) and some easy briefing in [Flow-of-Web.pdf](Flow-of-Web.pdf).
 
 ## 🚀 Introduction
 
