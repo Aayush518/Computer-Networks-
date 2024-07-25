@@ -51,7 +51,7 @@ Welcome to the central hub for our BitTorrent implementation projects! Here you'
 
 # 🌐 A Day in the Life of a Web Request
 
-💡 **Note:** This provides a simplified level overview. For more detailed information on each step, see [WebRequestActions](https://github.com/Aayush518/Computer-Networks-/blob/main/WhatHappensWhenYouEnterGoogleDotComAndHitEnter.pdf).
+💡 **Note:** This provides a simplified level overview. For more detailed information on each step, see [WebRequestActions](https://github.com/Aayush518/Computer-Networks-/blob/main/WhatHappensWhenYouEnterGoogleDotComAndHitEnter.pdf). and some easy briefing in [Flow-of-Web.pdf](Flow-of-Web.pdf).
 
 ## 🚀 Introduction
 
@@ -160,23 +160,17 @@ The process of loading a web page involves multiple network layers and protocols
 - [CN_Assignment_2.pdf](CN_Assignment_2.pdf)
 
 
-
-#### 📁 Resources:
-- [Flow-of-Web.pdf](Flow-of-Web.pdf)
-
 ## 🧠 LeetCode Solutions
 
 ### 🌐 Network Algorithms
 
-#### 🛫 Cheapest Flight Within K Stops
-- Solution approach and code available in PDF
+### 🛫 Cheapest Flight Within K Stops
+- Solution approach and code available in [PDF](https://github.com/Aayush518/Computer-Networks-/blob/main/Leetcode/CheapestFlightWithinKStops.pdf)
 
 ### 🕸️ Graph Algorithms
 
 #### ⏱️ Network Delay Time
-- Solution approach and code available in PDF
+- Solution approach and code available in [PDF](https://github.com/Aayush518/Computer-Networks-/blob/main/Leetcode/NetworkDelayTime.pdf)
 
-
----
 
 💡 **Note:** This README will be updated as the course progresses and new assignments are completed.
